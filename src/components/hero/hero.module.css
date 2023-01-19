@@ -1,0 +1,117 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 0rem 2rem;
+}
+
+.wrapper{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+.wrapper > img{
+    position: absolute;
+    width: 30rem;
+    bottom: 0;
+}
+
+.coloredCircle{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(135.74deg, #0BB5FF 14.09%, #6DD3FE 83.81%);
+}
+
+.cart2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    gap: 1rem;
+}
+.cart2 > svg {
+    padding: 0.625rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    background: #fff;
+    border-radius: 50%;
+    border: 6px solid var(--black);
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.625rem;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    box-shadow: var(--shadow1);
+}
+.signup>:first-child{
+    display: block;
+    width: 6rem;
+}
+.signup>:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+}
+
+.h_sides{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text1{
+    display: block;
+    width: min-content;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: #000;
+}
+.text2 > :first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.text2 > :nth-child(2){
+    display: block;
+}
+
+.traffic{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.traffic > :first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.customers{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.customers > :first-child{
+    font-weight: 800;
+    text-align: right;
+    font-size: 2.5rem;
+}
+
