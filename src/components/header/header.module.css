@@ -31,7 +31,8 @@
     list-style: none;
 }
 .menu>li:hover{
-    color: #d35400;
+    /* color: #d35400; */
+    color:#d43900;
     cursor: pointer;
 }
 
