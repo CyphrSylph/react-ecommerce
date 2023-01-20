@@ -53,11 +53,11 @@
     font-size: 0.8rem;
     box-shadow: var(--shadow1);
 }
-.signup>:first-child{
+.signup > :first-child{
     display: block;
     width: 6rem;
 }
-.signup>:nth-child(2){
+.signup > :nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
