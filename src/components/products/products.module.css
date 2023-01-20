@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+.container > :nth-child(1){
+    position: absolute;
+    width: 8rem;
+    left: 30%;
+    top: -3rem;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 25% auto;
+    width: 90%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.menu > li:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+
+.list{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+    grid-gap: 2rem;
+    height: 25rem;
+    overflow-y: scroll;
+}
+
+.product{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    width: 12rem;
+    height: 8rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.product > img{
+    width: 6rem;
+    height: 11rem;
+    top: 3rem;
+}
