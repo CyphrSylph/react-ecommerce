@@ -1,0 +1,73 @@
+.s-container{
+    position: relative;
+}
+
+.s-container .swiper{
+    position: unset;
+    width: 70%;
+    height: 12rem;
+}
+
+.s-container .swiper-slide{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+
+.s-container .swiper-button-prev{
+    left: 6rem;
+}
+
+.s-container .swiper-button-next{
+    right: 6rem;
+}
+
+.s-container .swiper-button-prev, .s-container .swiper-button-next{
+    color: #000;
+}
+
+.left-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.name > :nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name > :nth-child(2){
+    font-size: 0.7rem;
+}
+
+.left-s > :nth-child(2){
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.left-s > :nth-child(3){
+    width: max-content;
+    padding: 0.313rem 0.635rem;
+    border: 1px solid var(--black);
+    border-radius: 0.938rem;
+    font-size: 0.6rem;
+}
+
+.img-p{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    right: 0;
+    bottom: -20%;
+    transform: rotate(-20deg);
+}
