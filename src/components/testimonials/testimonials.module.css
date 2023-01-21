@@ -36,3 +36,51 @@
     font-size: 0.8rem;
     text-transform: uppercase;
 }
+
+.reviews{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel{
+    width: 100%;
+}
+.tCarousel{
+    padding: 2rem;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
+}
+.testimonial > img{
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
+    left: 45%;
+}
+.testimonial > span:nth-of-type(1){
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.063rem;
+}
+.testimonial > hr{
+    height: 0.063rem;
+    width: 80%;
+    background: rgb(198, 198, 198);
+    border: none;
+}
+.testimonial > span:nth-of-type(2){
+    font-weight: 500;
+}
+
