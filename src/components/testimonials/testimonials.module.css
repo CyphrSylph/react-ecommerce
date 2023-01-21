@@ -84,3 +84,15 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 640px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .wrapper > img{
+        width: 80vw;
+    }
+    .wrapper > :nth-child(1),
+    .wrapper > :nth-child(3){
+        text-align: center;
+    }
+}

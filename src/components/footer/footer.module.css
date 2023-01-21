@@ -72,3 +72,22 @@
     text-align: center;
     font-size: 0.65rem;
 }
+
+@media screen and (max-width: 768px) {
+    .cFooter{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.7rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .cFooter{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+}

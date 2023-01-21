@@ -6,8 +6,7 @@ import { useState } from 'react';
 import { useAutoAnimate } from '@formkit/auto-animate/react';
 
 const Products = () => {
-    const [parent] = useAutoAnimate()
-    
+    const [parent] = useAutoAnimate();
     const [MenuProducts, setMenuProducts] = useState(ProductsData);
     
     const filter = (type) => {

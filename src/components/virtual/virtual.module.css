@@ -38,5 +38,18 @@
     width: 30rem;
 }
 
+@media screen and (max-width: 856px) {
+    .virtual{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        gap: 2rem;
+    }
+}
+
 
 
