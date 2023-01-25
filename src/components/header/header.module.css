@@ -1,5 +1,5 @@
 .container{
-    padding: 1.5rem;
+    padding: 2rem;
     display: flex;
 }
 
@@ -40,7 +40,7 @@
     width: 7rem;
     height: 30%;
     outline: none;
-    border: 1px solid;
+    border: 1.5px solid #000;
     border-radius: 0.4rem;
     padding: 0.5rem;
 }
