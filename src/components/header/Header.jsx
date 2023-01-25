@@ -14,7 +14,7 @@ const Header = () => {
         <div className={css.container}>
             <div className={css.logo}>
                 <img src={Logo} alt="Logo" />
-                <span>React Shop</span>
+                <span>React Beauty</span>
             </div>
             <div className={css.right}>
                 <div className={css.burger} onClick={toggleMenu}>

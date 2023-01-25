@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={css.cFooter}>
             <div className={css.logo}>
                 <img src={Logo} alt="" />
-                <span>React Shop</span>
+                <span>React Beauty</span>
             </div>
             <div className={css.block}>
                 <div className={css.detail}>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
         </div>
         <div className={css.copyRight}>
-            <span>Copyright ©2022 by React Inc.</span>
+            <span>Copyright ©2023 by React Beauty Inc.</span>
             <span>All rights reserved.</span>
         </div>
     </div>
