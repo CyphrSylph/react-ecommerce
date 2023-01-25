@@ -4,6 +4,7 @@ import { SliderProducts } from '../../data/products';
 import { Navigation, Pagination } from 'swiper';
 import './slider.css';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 
 const Slider = () => {
@@ -11,7 +12,7 @@ const Slider = () => {
     <div className="s-container">
         <Swiper 
         modules={[Navigation, Pagination]}
-        className="theSwiper"
+        className="mySwiper"
         navigation={true}
         loopFillGroupWithBlank={true}
         slidesPerView={3}
