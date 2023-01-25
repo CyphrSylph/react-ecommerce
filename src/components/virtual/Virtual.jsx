@@ -16,7 +16,7 @@ const Virtual = () => {
         </div>
         <div className={css.right}>
             <div className={css.wrapper}>
-                <ReactCompareImage leftImage={Before} rightImage={After} />
+                <ReactCompareImage leftImage={Before} rightImage={After} sliderLineColor='#000'/>
             </div>
         </div>
     </div>
