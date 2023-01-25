@@ -36,7 +36,7 @@
 .list{
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 2fr));
     grid-gap: 2rem;
     height: 25rem;
     overflow-y: scroll;
@@ -49,6 +49,7 @@
     width: 12rem;
     height: 8rem;
     background-color: #fff;
+    border: 2px solid #000;
     border-radius: 1rem;
     overflow: hidden;
 }
