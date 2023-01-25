@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './hero.module.css';
 import HeroImg from '../../assets/hero.png';
+import HeroSwirl2 from '../../assets/heroSwirl2.png';
 import { HiShoppingBag, HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
@@ -20,7 +21,8 @@ const Hero = () => {
             {/* MIDDLE */}
             <div className={css.wrapper}>
                 <motion.div initial={{bottom: "2rem"}} whileInView={{bottom: "0rem"}} transition={transition} className={css.coloredCircle}></motion.div>
-                <motion.img initial={{bottom: "-2rem"}} whileInView={{bottom: "0rem"}} transition={transition} src={HeroImg} alt="header" width={600} />
+                <motion.img initial={{bottom: "-2rem"}} whileInView={{bottom: "0rem"}} transition={transition} src={HeroSwirl2} alt="header" width={600} />
+                {/* <motion.img initial={{bottom: "-2rem"}} whileInView={{bottom: "0rem"}} transition={transition} src={HeroSwirl} alt="headerSwirl" width={600} /> */}
                 <motion.div initial={{right: "4%"}} whileInView={{right: "2%"}} transition={transition} className={css.cart2}>
                     <HiShoppingBag />
                     <div className={css.signup}>

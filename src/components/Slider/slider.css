@@ -60,9 +60,13 @@
 .left-s > :nth-child(3){
     width: max-content;
     padding: 0.313rem 0.635rem;
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
     border-radius: 0.938rem;
     font-size: 0.6rem;
+}
+.left-s > :nth-child(3):hover{
+    color: #fff;
+    background-color: var(--black);
 }
 
 .img-p{

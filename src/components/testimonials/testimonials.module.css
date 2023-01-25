@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 4rem 3rem;
 }
 
 .wrapper{
@@ -59,6 +59,7 @@
     padding: 1rem;
     gap: 1rem;
     background: #fff;
+    border: 2px solid #000;
     border-radius: 0.5rem;
     box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
 }
@@ -77,7 +78,7 @@
 .testimonial > hr{
     height: 0.063rem;
     width: 80%;
-    background: rgb(198, 198, 198);
+    background: #000;
     border: none;
 }
 .testimonial > span:nth-of-type(2){

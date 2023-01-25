@@ -22,8 +22,7 @@
     border-radius: 50%;
     z-index: -99;
     position: absolute;
-    bottom: 0;
-    background: linear-gradient(135.74deg, #0BB5FF 14.09%, #6DD3FE 83.81%);
+    background: linear-gradient(#D1DDA4, #F5D7A0, #F6C0A7, #F7C6CD, #EEC0DD);
 }
 
 .cart2{
@@ -67,6 +66,13 @@
     height: 1.25rem;
     border: 2px solid #000;
     border-radius: 50%;
+}
+.signup:hover{
+    color: #fff;
+    background-color: var(--black);
+}
+.signup > :nth-child(2):hover{
+    border: 2px solid #fff;
 }
 
 .h_sides{
