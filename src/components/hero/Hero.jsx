@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './hero.module.css';
 import HeroImg from '../../assets/hero.png';
-import HeroSwirl2 from '../../assets/heroSwirl2.png';
+import HeroSwirl from '../../assets/heroSwirl.png';
 import { HiShoppingBag, HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
@@ -20,13 +20,13 @@ const Hero = () => {
             </div>
             {/* MIDDLE */}
             <div className={css.wrapper}>
-                <motion.div initial={{bottom: "2rem"}} whileInView={{bottom: "0rem"}} transition={transition} className={css.coloredCircle}></motion.div>
-                <motion.img initial={{bottom: "-2rem"}} whileInView={{bottom: "0rem"}} transition={transition} src={HeroSwirl2} alt="header" width={600} />
-                {/* <motion.img initial={{bottom: "-2rem"}} whileInView={{bottom: "0rem"}} transition={transition} src={HeroSwirl} alt="headerSwirl" width={600} /> */}
-                <motion.div initial={{right: "4%"}} whileInView={{right: "2%"}} transition={transition} className={css.cart2}>
+                <motion.div initial={{top: "-8rem"}} whileInView={{top: "-5rem"}} transition={transition} className={css.coloredCircle}></motion.div>
+                <motion.img initial={{top: "2rem"}} whileInView={{top: "-1rem"}} transition={transition} src={HeroImg} className={css.heroImg} alt="header" width={600} />
+                <motion.img initial={{opacity:0, scale:1.5}} animate={{opacity:1, scale:1}} transition={{duration:3, ease:[0, 0.71, 0.2, 1.01]}} src={HeroSwirl} className={css.heroSwirlImg} alt="headerSwirl" width={1000} />
+                <motion.div initial={{right: "-7%"}} whileInView={{right: "10%"}} transition={transition} className={css.cart2}>
                     <HiShoppingBag />
                     <div className={css.signup}>
-                        <span>Best Offers</span>
+                        <span>Best Deals</span>
                         <div>
                             <HiOutlineArrowNarrowRight />
                         </div>
