@@ -22,11 +22,11 @@ const Header = () => {
                 </div>
                 <div className={css.menu} style={{display: showMenu? 'inherit': 'none'}}>
                     <ul className={css.menu}>
-                        <li>Collections</li>
-                        <li>Brands</li>
-                        <li>New</li>
-                        <li>Sales</li>
-                        <li>ENG</li>
+                        <li className='cat1'>Collections</li>
+                        <li className='cat2'>Brands</li>
+                        <li className='cat3'>New</li>
+                        <li className='cat4'>Sales</li>
+                        <li className='cat5'>ENG</li>
                     </ul>
                 </div>
                 <input type="text" className={css.search} placeholder="Search"/>

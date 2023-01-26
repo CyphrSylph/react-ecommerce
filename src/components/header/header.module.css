@@ -30,11 +30,6 @@
     font-weight: 500;
     list-style: none;
 }
-.menu > li:hover{
-    /* color: #d35400; */
-    color:#d43900;
-    cursor: pointer;
-}
 
 .search{
     width: 7rem;
