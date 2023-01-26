@@ -146,17 +146,37 @@
     .coloredCircle{
         position: absolute;
         width: 70%;
-        height: 100%;
+        height: 97%;
+        left: 7rem;
+        top: -2rem !important;
     }
 
-    .wrapper > img{
-        width: 70%;
-        height: 70%;
+    .heroImg {
+        position: absolute;
+        width: 65%;
+        height: 81%;
+        top: 8% !important;
+        right: 10% !important;
+    }
+
+    .heroSwirlImg {
+        position: absolute;
+        width: 104%;
+        height: 114%;
+        top: -7%;
+        left: 4.5%;
+    }
+
+    .cart2{
+        transform: scale(0.8);
+        right: -7% !important;
+        top: 45%;
     }
 
     .container{
         grid-template-areas: 'left center center'
                                 'right right right';
+        padding: 2rem 5rem 3rem;
     }
 
     .container > :first-child{
@@ -173,7 +193,7 @@
         display: flex;
         justify-content: space-around;
         grid-area: right;
-        margin: 2rem 0rem;
+        margin: 3rem 0rem;
     }
 }
 

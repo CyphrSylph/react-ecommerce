@@ -83,6 +83,9 @@
 }
 
 @media screen and (max-width: 856px){
+    .s-container{
+        padding-top: 0;
+    }
     .s-container .swiper{
         width: 90%;
         height: 10rem;
