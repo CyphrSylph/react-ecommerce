@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 0 2rem;
+    padding: 5rem 2rem;
     gap: 2rem;
 }
 .container > :nth-child(1){
     position: absolute;
     width: 8rem;
     left: 30%;
-    top: -3.5rem;
+    top: 1.5rem;
 }
 
 .products{
@@ -28,10 +28,6 @@
     font-size: 1.3rem;
     font-weight: 500;
 }
-.menu > li:hover{
-    color: var(--pink);
-    cursor: pointer;
-}
 
 .list{
     display: grid;
@@ -40,6 +36,20 @@
     grid-gap: 2rem;
     height: 25rem;
     overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar{
+    height: 12px;
+    width: 12px;
+}  
+.list::-webkit-scrollbar-track{
+background: rgba(255, 255, 255, 0.2);
+border: 2px solid #000;
+border-radius: 1ex;
+}
+.list::-webkit-scrollbar-thumb{
+background: #000;
+border-radius: 1ex;
 }
 
 .product{
