@@ -1,6 +1,6 @@
 .s-container{
     position: relative;
-    padding-top: 2rem;
+    padding-top: 10rem;
 }
 
 .s-container .swiper{
@@ -22,10 +22,14 @@
 
 .s-container .swiper-button-prev{
     left: 6rem;
+    padding-top: 5rem;
+
 }
 
 .s-container .swiper-button-next{
     right: 6rem;
+    padding-top: 5rem;
+
 }
 
 .s-container .swiper-button-prev, .s-container .swiper-button-next{
