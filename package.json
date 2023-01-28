@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formkit/auto-animate": "^1.0.0-beta.1",
-    "@heroicons/react": "v1",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "framer-motion": "^7.2.1",
+    "@formkit/auto-animate": "^1.0.0-beta.6",
+    "@heroicons/react": "v2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "framer-motion": "^4.1.17",
     "react": "^18.2.0",
-    "react-compare-image": "^3.1.0",
+    "react-compare-image": "^3.3.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.7.1",
     "react-owl-carousel": "^2.3.3",
     "react-scripts": "5.0.1",
-    "swiper": "^8.3.2",
-    "web-vitals": "^2.1.0"
+    "swiper": "^8.4.6",
+    "web-vitals": "^3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "firebase-tools": "^11.21.0"
   }
 }
