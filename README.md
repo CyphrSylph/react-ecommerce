@@ -20,9 +20,7 @@ The smooth filter utilized for product list categories is imported from [AutoAni
 The before and after image feature are utilized by installing the npm package [React Compare Image](https://www.npmjs.com/package/react-compare-image?activeTab=readme).
 
 ## Deployment
-*:warning: under construction :warning:*
-
-This project is deployed using [Firebase](https://firebase.google.com/).
+This project is deployed using [Firebase](https://firebase.google.com/) hosting.
 
 ## Credit
 This project was built based on a tutorial by ZAINKEEPSCODE. It can be found [here](https://www.youtube.com/watch?v=P5VnLiGUmtY&ab_channel=ZAINKEEPSCODE) if you’d like to give it a try.
